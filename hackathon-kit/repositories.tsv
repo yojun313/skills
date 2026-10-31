@@ -1,0 +1,154 @@
+category	repo	priority	summary
+01-agent-skills	anthropics/skills	P0	문서·프런트엔드·테스트 등 작업별 SKILL.md 예제와 보조 스크립트
+01-agent-skills	agentskills/agentskills	P1	에이전트 스킬 규격과 참조 도구; 스킬 구조를 확인할 때
+01-agent-skills	openai/skills	P1	Codex 스킬 구조와 공식 예제; 보관 상태 및 대체 경로 확인
+01-agent-skills	openai/plugins	P0	OpenAI 공식 플러그인과 포함된 스킬·워크플로 참조
+01-agent-skills	vercel-labs/agent-skills	P0	React·웹 디자인 관련 에이전트 작업 지침
+01-agent-skills	huggingface/skills	P0	모델·데이터셋·평가·학습 관련 Hugging Face 작업 스킬
+01-agent-skills	github/awesome-copilot	P1	재사용 가능한 instructions·prompts·agents·skills 모음
+01-agent-skills	microsoft/skills	P1	Azure SDK·AI 서비스 관련 작업 스킬과 예제
+01-agent-skills	obra/superpowers	P1	계획·디버깅·검증 중심 개발 워크플로 스킬
+01-agent-skills	trailofbits/skills	P2	코드 검토와 보안 분석용 전문 스킬
+01-agent-skills	databricks/databricks-agent-skills	P2	Databricks 데이터·SQL·분석 작업용 스킬
+02-llm-agents	langchain-ai/langgraph	P0	상태와 분기·재시도를 가진 에이전트 워크플로
+02-llm-agents	langchain-ai/langchain	P1	모델·도구·retriever 통합 예제
+02-llm-agents	pydantic/pydantic-ai	P0	타입이 있는 출력과 도구 호출 중심 Python 에이전트
+02-llm-agents	stanfordnlp/dspy	P1	LLM 파이프라인을 평가 지표로 개선하는 실험
+02-llm-agents	openai/openai-agents-python	P1	도구 호출·handoff·tracing 기반 에이전트 SDK
+02-llm-agents	google/adk-python	P1	Google Agent Development Kit의 도구·워크플로 예제
+02-llm-agents	huggingface/smolagents	P1	코드 실행 기반의 경량 에이전트 예제
+02-llm-agents	crewAIInc/crewAI	P2	역할별 에이전트 협업 프레임워크 비교
+02-llm-agents	microsoft/autogen	P2	대화형 에이전트 협업 설계와 기존 예제
+03-rag-search	run-llama/llama_index	P0	문서 인덱싱·검색·질의 파이프라인 예제
+03-rag-search	deepset-ai/haystack	P1	컴포넌트 기반 검색·RAG 파이프라인
+03-rag-search	infiniflow/ragflow	P1	문서 처리부터 검색·대화 UI까지 통합 RAG 구현
+03-rag-search	microsoft/graphrag	P2	엔터티 관계와 그래프 요약을 사용하는 검색
+03-rag-search	HKUDS/LightRAG	P1	그래프를 결합한 경량 RAG 구현
+03-rag-search	qdrant/qdrant	P0	벡터 검색 서버와 필터링 설계
+03-rag-search	chroma-core/chroma	P1	로컬 프로토타입용 임베딩 저장·검색
+03-rag-search	pgvector/pgvector	P1	PostgreSQL 안에서 벡터 유사도 검색
+03-rag-search	facebookresearch/faiss	P1	로컬 대규모 벡터 유사도 검색
+03-rag-search	huggingface/sentence-transformers	P0	문장 임베딩과 cross-encoder 재순위화
+03-rag-search	FlagOpen/FlagEmbedding	P1	BGE 임베딩과 reranker 모델 활용
+04-document-ocr	docling-project/docling	P0	PDF·표·레이아웃을 구조화하는 문서 파싱
+04-document-ocr	Unstructured-IO/unstructured	P1	여러 문서 형식에서 요소를 추출하는 ETL
+04-document-ocr	jsvine/pdfplumber	P0	PDF 텍스트·표·좌표 기반 추출과 디버깅
+04-document-ocr	pymupdf/PyMuPDF	P1	PDF 렌더링·텍스트·이미지 처리; 라이선스 확인
+04-document-ocr	PaddlePaddle/PaddleOCR	P0	스캔 문서·이미지 OCR와 문서 이해
+04-document-ocr	tesseract-ocr/tesseract	P1	CPU 기반 OCR 엔진과 언어 데이터 연동
+04-document-ocr	opendatalab/MinerU	P1	복잡한 PDF를 구조화된 문서로 변환
+04-document-ocr	datalab-to/marker	P2	PDF에서 Markdown·구조화 데이터로 변환
+05-web-ui	vercel/next.js	P1	React 기반 웹앱 구현과 공식 examples
+05-web-ui	vitejs/vite	P0	빠른 프런트엔드 개발 환경과 템플릿
+05-web-ui	shadcn-ui/ui	P0	대시보드·폼·대화창 UI 컴포넌트 패턴
+05-web-ui	tailwindlabs/tailwindcss	P1	유틸리티 CSS 기반 스타일링
+05-web-ui	vercel/ai	P0	스트리밍·도구 호출을 포함한 TypeScript AI UI
+05-web-ui	vercel/chatbot	P1	AI 채팅 웹앱 템플릿; 이전·보관 상태 확인
+05-web-ui	fastapi/full-stack-fastapi-template	P0	FastAPI·DB·프런트엔드를 묶은 풀스택 템플릿
+05-web-ui	supabase/supabase	P1	Postgres·인증·스토리지 결합 백엔드 참조
+05-web-ui	streamlit/streamlit	P0	Python만으로 데이터 분석·AI 데모 UI 제작
+05-web-ui	gradio-app/gradio	P0	모델 추론·이미지·대화형 데모 UI 제작
+05-web-ui	plotly/dash	P1	Python 데이터 대시보드와 콜백 구성
+06-api-backend	fastapi/fastapi	P0	입력 검증과 OpenAPI를 갖춘 Python API
+06-api-backend	pydantic/pydantic	P0	데이터 스키마와 구조화 출력 검증
+06-api-backend	fastapi/sqlmodel	P1	Pydantic·SQLAlchemy 연계 DB 모델
+06-api-backend	encode/httpx	P1	동기·비동기 HTTP 클라이언트와 타임아웃
+06-api-backend	expressjs/express	P1	경량 Node.js API 서버
+06-api-backend	nestjs/nest	P2	모듈화된 TypeScript 백엔드 구조
+07-tabular-ml	pola-rs/polars	P0	빠른 CSV·Parquet 처리와 lazy 데이터 변환
+07-tabular-ml	duckdb/duckdb	P0	파일을 직접 SQL로 분석하는 로컬 분석 DB
+07-tabular-ml	scikit-learn/scikit-learn	P0	전처리·교차검증·분류·회귀의 기본 baseline
+07-tabular-ml	dmlc/xgboost	P0	정형 센서·공정 데이터용 부스팅 baseline
+07-tabular-ml	lightgbm-org/LightGBM	P0	대용량 정형 데이터의 빠른 부스팅
+07-tabular-ml	catboost/catboost	P0	장비·공정·제품 등 범주형 변수가 많은 예측
+07-tabular-ml	autogluon/autogluon	P1	정형 데이터·시계열 AutoML baseline
+07-tabular-ml	shap/shap	P0	예측 기여도와 오류 사례 해석; 인과와 구분
+07-tabular-ml	Data-Centric-AI-Community/fg-data-profiling	P1	결측·분포·데이터 품질을 빠르게 탐색
+08-timeseries-anomaly	unit8co/darts	P1	여러 시계열 예측 모델을 같은 API로 비교
+08-timeseries-anomaly	sktime/sktime	P1	시계열 예측·분류·변환 도구
+08-timeseries-anomaly	Nixtla/statsforecast	P0	통계 기반 시계열 예측 baseline
+08-timeseries-anomaly	Nixtla/neuralforecast	P1	딥러닝 시계열 예측 모델 모음
+08-timeseries-anomaly	blue-yonder/tsfresh	P0	센서 시계열에서 통계 특징 추출
+08-timeseries-anomaly	ymirsky/KitNET-py	P2	온라인 비지도 이상 탐지의 경량 구현 참고
+08-timeseries-anomaly	yzhao062/pyod	P0	Isolation Forest 등 이상 탐지 모델 비교
+08-timeseries-anomaly	amazon-science/chronos-forecasting	P1	사전학습 시계열 모델을 통한 빠른 예측
+08-timeseries-anomaly	google-research/timesfm	P1	시계열 파운데이션 모델 활용
+09-industrial-vision	open-edge-platform/anomalib	P0	산업 이미지 이상 탐지·결함 위치 추정
+09-industrial-vision	amazon-science/patchcore-inspection	P0	정상 이미지 중심 PatchCore 산업 검사 구현
+09-industrial-vision	facebookresearch/sam2	P1	이미지·영상 세그멘테이션 모델
+09-industrial-vision	IDEA-Research/GroundingDINO	P1	텍스트 조건을 활용한 객체 검출
+09-industrial-vision	ultralytics/ultralytics	P0	이미지 결함 검출·분류·세그멘테이션 baseline
+09-industrial-vision	roboflow/supervision	P0	검출 결과 후처리·시각화·추적 도구
+09-industrial-vision	opencv/opencv	P0	영상 전처리·형상·이미지 측정 기본 도구
+09-industrial-vision	albumentations-team/albumentations	P1	영상 데이터 증강; 보관·대체 경로 확인
+09-industrial-vision	huggingface/pytorch-image-models	P1	사전학습 이미지 분류 backbone 활용
+10-manufacturing-optimization	google/or-tools	P0	생산 스케줄링·배치·자원 제약 최적화
+10-manufacturing-optimization	anyoptimization/pymoo	P1	수율·비용·시간의 다목적 최적화
+10-manufacturing-optimization	optuna/optuna	P0	하이퍼파라미터·실험 조건 탐색
+10-manufacturing-optimization	simpx/simpy	P1	장비 대기열·공정 흐름 이산사건 시뮬레이션
+10-manufacturing-optimization	pgmpy/pgmpy	P1	확률 그래프와 조건부 추론
+10-manufacturing-optimization	py-why/dowhy	P1	관측 데이터의 인과 가정과 반증 분석
+10-manufacturing-optimization	py-why/causal-learn	P2	인과 구조 탐색 알고리즘 비교
+10-manufacturing-optimization	process-intelligence-solutions/pm4py	P1	이벤트 로그를 활용한 공정 흐름·병목 분석
+10-manufacturing-optimization	statsmodels/statsmodels	P0	통계 검정·회귀·시계열의 해석 가능한 baseline
+11-local-llm	ollama/ollama	P0	로컬 모델 서빙과 간단한 추론 API
+11-local-llm	ggml-org/llama.cpp	P0	CPU·GPU 양자화 LLM 추론
+11-local-llm	vllm-project/vllm	P1	GPU 기반 LLM 고처리량 서빙
+11-local-llm	huggingface/transformers	P0	언어·비전·멀티모달 사전학습 모델 활용
+11-local-llm	huggingface/peft	P1	LoRA 등 적은 자원으로 모델 미세조정
+11-local-llm	unslothai/unsloth	P1	효율적인 모델 미세조정 워크플로
+11-local-llm	huggingface/trl	P2	SFT·선호 최적화 등 후학습 예제
+12-eval-observability	promptfoo/promptfoo	P0	프롬프트·모델 회귀 평가와 테스트 케이스
+12-eval-observability	vibrantlabsai/ragas	P0	RAG 검색·답변 품질 평가
+12-eval-observability	confident-ai/deepeval	P1	LLM 출력 품질 평가와 회귀 테스트
+12-eval-observability	mlflow/mlflow	P1	모델·실험·평가 추적
+12-eval-observability	Arize-ai/phoenix	P1	LLM trace·평가·오류 분석
+12-eval-observability	langfuse/langfuse	P1	LLM 요청 trace와 프롬프트 관리
+12-eval-observability	evidentlyai/evidently	P1	모델·데이터 드리프트와 품질 리포트
+13-automation-mcp	microsoft/playwright	P0	브라우저 실제 사용자 흐름 검증
+13-automation-mcp	browser-use/browser-use	P1	에이전트의 브라우저 조작 구현 예제
+13-automation-mcp	PrefectHQ/fastmcp	P1	Python MCP 서버·도구 구성
+13-automation-mcp	modelcontextprotocol/servers	P1	MCP 서버 참조 구현과 연결 패턴
+13-automation-mcp	modelcontextprotocol/python-sdk	P1	MCP Python 프로토콜 구현
+13-automation-mcp	firecrawl/firecrawl	P2	웹 문서 수집 API와 파이프라인 구현
+13-automation-mcp	unclecode/crawl4ai	P1	웹 페이지를 LLM이 읽을 수 있는 데이터로 수집
+14-visualization-presentation	plotly/plotly.py	P0	수율·센서·성능 지표 인터랙티브 차트
+14-visualization-presentation	vega/altair	P1	선언형 통계 시각화
+14-visualization-presentation	apache/echarts	P1	웹 대시보드 차트와 데이터 시각화
+14-visualization-presentation	mermaid-js/mermaid	P0	텍스트로 구조·흐름·시퀀스 다이어그램 작성
+14-visualization-presentation	slidevjs/slidev	P1	Markdown 기반 발표 슬라이드 제작
+14-visualization-presentation	marimo-team/marimo	P1	재현 가능한 Python 분석 노트북과 앱
+15-cookbooks-learning	openai/openai-cookbook	P0	LLM API·검색·도구 호출의 공식 예제
+15-cookbooks-learning	anthropics/claude-cookbooks	P1	도구·문서·평가 관련 Claude 활용 예제
+15-cookbooks-learning	microsoft/generative-ai-for-beginners	P1	생성형 AI 애플리케이션 개념과 실습
+15-cookbooks-learning	microsoft/ai-agents-for-beginners	P1	에이전트 설계 패턴과 실습
+15-cookbooks-learning	rasbt/LLMs-from-scratch	P2	LLM 내부 구조를 이해하기 위한 구현
+15-cookbooks-learning	ageron/handson-ml3	P2	머신러닝 실습·전처리·모델 평가 참고
+16-semiconductor-data	makinarocks/awesome-industrial-machine-datasets	P0	SECOM·웨이퍼·설비 등 산업 공개 데이터 탐색
+16-semiconductor-data	jonathanwvd/awesome-industrial-datasets	P0	제조·설비·품질 데이터셋 설명과 원출처 링크
+16-semiconductor-data	markditsworth/Semiconductor-Fault-Detection	P2	SECOM 반도체 공정 분류 사례; 소규모 커뮤니티 예제로 검증 후 참고
+16-semiconductor-data	SpatialAILab/WaferDC	P2	SEM 웨이퍼 결함 검출·분류 연구 코드; 데이터와 모델은 별도 확인
+17-memory-storage-simulation	CMU-SAFARI/ramulator2	P0	DRAM·HBM 메모리 타이밍과 컨트롤러 시뮬레이션
+17-memory-storage-simulation	umd-memsys/DRAMsim3	P0	DRAM 타이밍·대역폭·메모리 시스템 시뮬레이션
+17-memory-storage-simulation	tukl-msd/DRAMSys	P1	DRAM 시스템 성능·전력 분석 시뮬레이션
+17-memory-storage-simulation	CMU-SAFARI/MQSim	P0	SSD 큐·컨트롤러·flash 계층 성능 시뮬레이션
+17-memory-storage-simulation	SimpleSSD/SimpleSSD	P1	SSD 컨트롤러·펌웨어·성능 연구용 시뮬레이터
+17-memory-storage-simulation	ChampSim/ChampSim	P1	캐시·prefetch·메모리 접근 성능 실험
+17-memory-storage-simulation	gem5/gem5	P2	CPU·캐시·메모리를 포함한 시스템 시뮬레이터
+17-memory-storage-simulation	CMU-SAFARI/DRAM-Bender	P2	실제 DRAM 특성을 실험하는 FPGA 기반 연구 플랫폼
+18-eda-hardware	The-OpenROAD-Project/OpenROAD	P1	RTL 이후 물리 설계 자동화 도구
+18-eda-hardware	YosysHQ/yosys	P1	RTL 합성과 회로 분석 도구
+18-eda-hardware	verilator/verilator	P1	Verilog·SystemVerilog 시뮬레이션과 lint
+18-eda-hardware	cocotb/cocotb	P1	Python 기반 RTL 테스트벤치
+18-eda-hardware	KLayout/klayout	P1	반도체 레이아웃 시각화·스크립트 처리
+18-eda-hardware	The-OpenROAD-Project/OpenSTA	P1	정적 타이밍 분석과 경로 진단
+18-eda-hardware	chipfoundry/openlane2	P2	모듈형 RTL-to-GDS 구현 흐름; 실행 환경과 공정 설정 확인
+18-eda-hardware	google/skywater-pdk	P2	공개 PDK 구조와 설계 규칙 참고; 실제 공정과 구분
+16-semiconductor-data	MichaelHotaling/klarfkit	P1	반도체 검사 KLARF 파일 로딩·웨이퍼 결함 맵 처리
+16-semiconductor-data	chrisshaffer/wafer-defect-maps	P2	WM811K 웨이퍼 맵 CNN 분류 커뮤니티 사례
+16-semiconductor-data	PanithanS/Wafers-Defect-Recognition-using-Visual-Transformer	P2	MixedWM38 혼합 웨이퍼 결함 패턴 인식 연구 사례
+17-memory-storage-simulation	CMU-SAFARI/HBM-Power	P1	실제 HBM2 연구 기반 전력 모델; 세대·가정·적용 범위 확인
+07-tabular-ml	scikit-learn-contrib/imbalanced-learn	P0	희소 불량 클래스의 재표집·분류; 학습 fold 내부에서만 적용
+08-timeseries-anomaly	online-ml/river	P1	스트리밍 센서 데이터의 온라인 학습·드리프트 탐지
+19-industrial-integration	eclipse-paho/paho.mqtt.python	P1	MQTT 센서·설비 데이터 수신과 이벤트 연동
+19-industrial-integration	FreeOpcUa/opcua-asyncio	P1	OPC UA 산업 장비 데이터의 비동기 연동

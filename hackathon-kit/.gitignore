@@ -1,0 +1,10 @@
+/repos/
+/datasets/
+/materials/
+/logs/
+/CLONE_STATUS.json
+/LOCAL_INDEX.json
+/SKILLS_INDEX.json
+/SKILLS_INDEX.md
+/MATERIALS_STATUS.json
+__pycache__/
