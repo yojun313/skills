@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# 사용법: ./clone-public-repos.sh [GitHub 계정] [저장 폴더]
-# 기본값: yojun313 계정의 모든 public 레포(fork 포함)를 ~/yojun/에 HTTPS로 clone
+# 사용법: ./clone.sh [GitHub 계정] [저장 폴더]
+# 기본값: yojun313의 public 레포(fork 포함) 중 CSED로 시작하는 레포를 제외하고
+# ~/yojun/에 HTTPS로 clone. 기본 브랜치의 최신 커밋 하나만 받고 태그·과거 이력은 생략.
+# Git LFS 대용량 파일은 다운로드하지 않고 포인터 파일만 받습니다.
 set -euo pipefail
 
 if [[ $# -gt 2 ]]; then
@@ -67,6 +69,12 @@ skipped=0
 failed=0
 
 while IFS=$'\t' read -r name url; do
+  if [[ "$name" == CSED* ]]; then
+    echo "[건너뜀] CSED 레포 제외: $name"
+    skipped=$((skipped + 1))
+    continue
+  fi
+
   if [[ -e "$DEST_DIR/$name" || -L "$DEST_DIR/$name" ]]; then
     echo "[건너뜀] 이미 존재: $DEST_DIR/$name"
     skipped=$((skipped + 1))
@@ -74,7 +82,8 @@ while IFS=$'\t' read -r name url; do
   fi
 
   echo "[clone] $url"
-  if GIT_TERMINAL_PROMPT=0 git clone -- "$url" "$DEST_DIR/$name"; then
+  if GIT_TERMINAL_PROMPT=0 GIT_LFS_SKIP_SMUDGE=1 git clone \
+    --depth 1 --single-branch --no-tags -- "$url" "$DEST_DIR/$name"; then
     cloned=$((cloned + 1))
   else
     echo "[실패] $name — 나머지 레포는 계속 진행합니다." >&2
